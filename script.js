@@ -17,7 +17,7 @@ function Krandom(){
  return Math.floor(Math.random() * 100) + 1 ;
 }    
 
-function Dradnom (){
+function Drandom (){
   return Math.floor (Math.random() * 100) + 1 ;
 }
 
@@ -33,8 +33,8 @@ function Kctd () {
    var three = two / 100 ; 
    var result ; 
      
- if (Krandom() > three) {
-          result = o ; 
+ if (Krandom() >= three) {
+        result = 0 ; 
    }  else {
    result =  Kh - DDmg(); 
    }
@@ -54,9 +54,9 @@ function Dctd () {
  var result; 
 
       
- if (Drandom() > two) {
-          result = o ; 
-   }  else {
+ if (Drandom() > three) {
+   result = 0 ; 
+          }  else {
    result =  Dh - KDmg(); 
    }
     
@@ -66,6 +66,6 @@ return result ;
 // end of chance area 
 
 
-  
+
 console.log("I love Darina");
-document.getElementById("demo").innerHTML = Kctd();
+document.getElementById("demo").innerHTML = Dctd();
