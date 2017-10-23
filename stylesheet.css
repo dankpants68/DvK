@@ -19,18 +19,15 @@ text-align: center;
 /*beggining of input area*/ 
 #knight{
     position:fixed;
-    left:600px; 
-
-     
-
+    left:550px; 
 
   
     
 }
 
 #dragon {
-
-margin-right:20px;
+position:fixed;
+left:800px;
     
     
 }
